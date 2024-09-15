@@ -1,0 +1,92 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+  
+.login-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#ebbcdb, #a7adee);
+    border-radius: 25px;
+    height: 94vh;
+    width: 350px;
+}
+
+.fa-envelope {
+    height: 1.3rem;
+    width: 1.5rem;
+    padding: 4px;
+    color: gray;
+    position: absolute;
+    box-sizing:border-box;
+    top:50%;
+    left:2px;
+    transform: translateY(-50%);
+}
+
+.fa-lock {
+    height: 1.4rem;
+    width: 1.5rem;
+    padding: 4px;
+    color: gray;
+    position: absolute;
+    box-sizing:border-box;
+    top:50%;
+    left:2px;
+    transform: translateY(-50%);
+}
+
+.wrapper {
+    position:relative;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-left: 1.6rem;
+}
+
+button[type="submit"] {
+    background-color: darkorchid;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+  
+button[type="submit"]:hover {
+    background-color: white;
+    color: darkorchid;
+}
+
+input[type=checkbox] { 
+    vertical-align: middle; 
+    position: relative; 
+    bottom: 1.7px; 
+} 
+  
+label { 
+    display: block; 
+} 
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.social-login a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 28px;
+}
